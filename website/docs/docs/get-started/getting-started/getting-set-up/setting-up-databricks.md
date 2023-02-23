@@ -114,9 +114,9 @@ Our next step is to load some data to transform. Luckily for us, Databricks make
     - [jaffle_shop_orders.csv](https://dbt-tutorial-public.s3-us-west-2.amazonaws.com/jaffle_shop_orders.csv)
     - [stripe_payments.csv](https://dbt-tutorial-public.s3-us-west-2.amazonaws.com/stripe_payments.csv)
 
-5. Once the SQL Warehouse is up, click on the `Create` and then `Table` on the drop down menu. 
+5. Once the SQL Warehouse is up, click on the `New` and then `File upload` on the drop down menu. 
     <div style={{maxWidth: '400px'}}>
-    <Lightbox src="/img/databricks_tutorial/images/create_table_using_databricks_SQL.png" title="Create Table Using Databricks SQL" />
+    <Lightbox src="/img/databricks_tutorial/images/file_upload_using_databricks_SQL.png" title="File Upload Using Databricks SQL" />
     </div>
 
 6. Let's load the Jaffle Shop Customers data first. Drop in the `jaffle_shop_customers.csv` file into the UI.
@@ -131,6 +131,7 @@ Our next step is to load some data to transform. Luckily for us, Databricks make
     - <b>table</b> = jaffle_shop_customers
     - Make sure that the column data types are correct. The way you can do this is by hovering over the datatype icon next to the column name. 
         - <b>ID</b> = bigint
+![Uploading file_upload_using_databricks_SQL.png…]()
         - <b>FIRST_NAME</b> = string
         - <b>LAST_NAME</b> = string
 
@@ -138,7 +139,7 @@ Our next step is to load some data to transform. Luckily for us, Databricks make
     <Lightbox src="/img/databricks_tutorial/images/jaffle_shop_customers_upload.png" title="Load jaffle shop customers" />
     </div>
 
-8. Click `Create` on the bottom once you’re done. 
+8. Click `Create table` on the bottom once you’re done. 
 
 9. Now let’s do the same for `Jaffle Shop Orders` and `Stripe Payments`. 
 
